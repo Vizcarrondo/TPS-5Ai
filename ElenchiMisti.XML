@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElenchiMisti>
+    <persona genere="M">
+        <nome>Mario</nome>
+        <Cognome>Rossi</Cognome>
+        <citta>Carlo</citta>
+        <indirizzo>Via Roma 12</indirizzo>
+        <eta>72</eta>
+        <GruppoSanguigno>A+</GruppoSanguigno>
+    </persona>
+
+    <persona genere="F">
+        <nome>Maria</nome>
+        <Cognome>Rossi</Cognome>
+        <citta>Monte Carlo</citta>
+        <indirizzo>Via Roma 12</indirizzo>
+        <eta>25</eta>
+        <GruppoSanguigno>AB-</GruppoSanguigno>
+    </persona>
+
+    <persona genere="M">
+        <nome>Michael</nome>
+        <Cognome>Dest</Cognome>
+        <citta>Canegrate</citta>
+        <indirizzo>Via Milano 27</indirizzo>
+        <eta>23</eta>
+        <GruppoSanguigno>0+</GruppoSanguigno>
+    </persona>
+
+    <persona genere="M">
+        <nome>Mirko</nome>
+        <Cognome>Guarracino</Cognome>
+        <citta>Canegrate</citta>
+        <indirizzo>Viale Europa 19</indirizzo>
+        <eta>17</eta>
+        <GruppoSanguigno>AB-</GruppoSanguigno>
+    </persona>
+</ElenchiMisti>
