@@ -1,10 +1,9 @@
-
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f0fdf4; 
-  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to bottom right, #ecfdf5, #d1fae5);
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 20px;
 }
@@ -12,46 +11,71 @@ body {
 body, h1, h2 {
   padding: 10px;
   font-size: 32px;
-  color: #065f46; 
+  color: #047857;
   text-align: center;
+  letter-spacing: 1px;
 }
-p{
+
+p {
   padding: 10px;
   font-size: 20px;
-  color: #065f46; 
+  color: #065f46;
   text-align: center;
 }
 
 input[type="button"] {
-  padding: 10px 20px;
+  padding: 12px 25px;
   margin: 20px auto;
-  background-color: #10b981; 
+  background-color: #10b981;
   color: white;
   border: none;
-  font-size: 16px;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+}
+
+input[type="button"]:hover {
+  background-color: #059669;
+  transform: scale(1.05);
 }
 
 table {
   width: 90%;
   border-collapse: collapse;
-  font-size: 16px;
+  font-size: 17px;
   margin: 20px auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
   background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
 table, th, td {
-  border: 1px solid #d1fae5; 
+  border: 1px solid #a7f3d0;
 }
 
 th, td {
-  padding: 12px;
+  padding: 14px;
   text-align: center;
 }
+
 th {
-  background-color: #34d399; 
+  background: linear-gradient(to right, #34d399, #10b981);
   color: white;
   font-weight: bold;
+  letter-spacing: 0.5px;
 }
 
+td {
+  background-color: #f0fdf4;
+}
 
+tr:nth-child(even) td {
+  background-color: #dcfce7;
+}
+
+tr:hover td {
+  background-color: #bbf7d0;
+  transition: 0.2s;
+}
